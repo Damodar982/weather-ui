@@ -1,0 +1,106 @@
+.search-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.heading {
+    margin: 0;
+    font-family: system-ui;
+    color: #43aff3;
+}
+
+.heading2 {
+    margin-top: 0;
+    font-family: system-ui;
+    color: black;
+}
+
+.heading-card {
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+.heading-card2 {
+    border-bottom: 1px solid gray;
+    padding: 1rem 0.5rem 1rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-card {
+    height: 30px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.arrow-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+.user-input-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: .8rem;
+}
+
+
+.details-button {
+    height: 30px;
+    border-radius: 6px;
+    width: 40%;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    margin-top: 6px;
+    color: #ffffff;
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+}
+
+.weather-icon {
+    height: 40px;
+    width: 40px;
+}
+.table{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1200px) {
+    .search-card {
+        width: 30%;
+    }
+
+}
+
+
+@media screen and (max-width:850px) {
+    .search-card {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .search-card {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .search-card {
+        width: 90%;
+    }
+
+}
